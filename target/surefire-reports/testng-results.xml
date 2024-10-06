@@ -1,192 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="10" passed="7" failed="1" skipped="0">
+<testng-results ignored="3" total="5" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-06T15:27:00Z" name="Suite" finished-at="2024-10-06T15:28:55Z" duration-ms="114737">
+  <suite started-at="2024-10-06T16:47:30Z" name="sanity" finished-at="2024-10-06T16:48:24Z" duration-ms="53691">
     <groups>
       <group name="sanity">
-        <method signature="LoginTest.TC01_LoginFailureTest()[pri:0, instance:testcases.LoginTest@1b45c0e]" name="TC01_LoginFailureTest" class="testcases.LoginTest"/>
-        <method signature="LoginTest.TC02_LoginSuccessTest()[pri:0, instance:testcases.LoginTest@1b45c0e]" name="TC02_LoginSuccessTest" class="testcases.LoginTest"/>
+        <method signature="LoginTest.TC01_LoginFailureTest()[pri:0, instance:testcases.LoginTest@10f7f7de]" name="TC01_LoginFailureTest" class="testcases.LoginTest"/>
+        <method signature="LoginTest.TC02_LoginSuccessTest()[pri:0, instance:testcases.LoginTest@10f7f7de]" name="TC02_LoginSuccessTest" class="testcases.LoginTest"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2024-10-06T15:27:00Z" name="Test" finished-at="2024-10-06T15:28:55Z" duration-ms="114737">
-      <class name="testcases.HomePageTest">
-        <test-method is-config="true" signature="SetUpExcel()[pri:0, instance:testcases.HomePageTest@147a5d08]" started-at="2024-10-06T15:27:00Z" name="SetUpExcel" finished-at="2024-10-06T15:27:01Z" duration-ms="905" status="PASS">
+    <test started-at="2024-10-06T16:47:30Z" name="Test" finished-at="2024-10-06T16:48:24Z" duration-ms="53691">
+      <class name="testcases.LoginTest">
+        <test-method is-config="true" signature="SetUpExcel()[pri:0, instance:testcases.LoginTest@10f7f7de]" started-at="2024-10-06T16:47:30Z" name="SetUpExcel" finished-at="2024-10-06T16:47:31Z" duration-ms="917" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpExcel -->
-        <test-method is-config="true" signature="SetUpDriver()[pri:0, instance:testcases.HomePageTest@147a5d08]" started-at="2024-10-06T15:27:01Z" name="SetUpDriver" finished-at="2024-10-06T15:27:08Z" duration-ms="7039" status="PASS">
+        <test-method is-config="true" signature="SetUpDriver()[pri:0, instance:testcases.LoginTest@10f7f7de]" started-at="2024-10-06T16:47:31Z" name="SetUpDriver" finished-at="2024-10-06T16:47:46Z" duration-ms="15138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpDriver -->
-        <test-method signature="TC03_SomeName()[pri:0, instance:testcases.HomePageTest@147a5d08]" started-at="2024-10-06T15:27:08Z" name="TC03_SomeName" finished-at="2024-10-06T15:27:08Z" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC03_SomeName -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.HomePageTest@147a5d08]" started-at="2024-10-06T15:27:08Z" name="TearDown" finished-at="2024-10-06T15:27:10Z" duration-ms="1224" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="CloseExcel()[pri:0, instance:testcases.HomePageTest@147a5d08]" started-at="2024-10-06T15:28:55Z" name="CloseExcel" finished-at="2024-10-06T15:28:55Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CloseExcel -->
-      </class> <!-- testcases.HomePageTest -->
-      <class name="testcases.LoginTest">
-        <test-method is-config="true" signature="SetUpDriver()[pri:0, instance:testcases.LoginTest@1b45c0e]" started-at="2024-10-06T15:27:10Z" name="SetUpDriver" finished-at="2024-10-06T15:27:15Z" duration-ms="4842" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUpDriver -->
-        <test-method signature="TC01_LoginFailureTest()[pri:0, instance:testcases.LoginTest@1b45c0e]" started-at="2024-10-06T15:27:15Z" name="TC01_LoginFailureTest" description="Login failure test" finished-at="2024-10-06T15:27:31Z" duration-ms="16142" status="PASS">
+        <test-method signature="TC01_LoginFailureTest()[pri:0, instance:testcases.LoginTest@10f7f7de]" started-at="2024-10-06T16:47:46Z" name="TC01_LoginFailureTest" description="Login failure test" finished-at="2024-10-06T16:48:00Z" duration-ms="13990" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC01_LoginFailureTest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.LoginTest@1b45c0e]" started-at="2024-10-06T15:27:31Z" name="TearDown" finished-at="2024-10-06T15:27:32Z" duration-ms="1057" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.LoginTest@10f7f7de]" started-at="2024-10-06T16:48:00Z" name="TearDown" finished-at="2024-10-06T16:48:02Z" duration-ms="1690" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="SetUpDriver()[pri:0, instance:testcases.LoginTest@1b45c0e]" started-at="2024-10-06T15:27:32Z" name="SetUpDriver" finished-at="2024-10-06T15:27:37Z" duration-ms="5100" status="PASS">
+        <test-method is-config="true" signature="SetUpDriver()[pri:0, instance:testcases.LoginTest@10f7f7de]" started-at="2024-10-06T16:48:02Z" name="SetUpDriver" finished-at="2024-10-06T16:48:10Z" duration-ms="8504" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpDriver -->
-        <test-method signature="TC02_LoginSuccessTest()[pri:0, instance:testcases.LoginTest@1b45c0e]" started-at="2024-10-06T15:27:37Z" name="TC02_LoginSuccessTest" description="Login success test" finished-at="2024-10-06T15:27:47Z" duration-ms="10007" status="PASS">
+        <test-method signature="TC02_LoginSuccessTest()[pri:0, instance:testcases.LoginTest@10f7f7de]" started-at="2024-10-06T16:48:10Z" name="TC02_LoginSuccessTest" description="Login success test" finished-at="2024-10-06T16:48:22Z" duration-ms="11974" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC02_LoginSuccessTest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.LoginTest@1b45c0e]" started-at="2024-10-06T15:27:47Z" name="TearDown" finished-at="2024-10-06T15:27:48Z" duration-ms="1032" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.LoginTest@10f7f7de]" started-at="2024-10-06T16:48:22Z" name="TearDown" finished-at="2024-10-06T16:48:24Z" duration-ms="1456" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="SetUpDriver()[pri:0, instance:testcases.LoginTest@1b45c0e]" started-at="2024-10-06T15:27:48Z" name="SetUpDriver" finished-at="2024-10-06T15:27:53Z" duration-ms="5080" status="PASS">
+        <test-method is-config="true" signature="CloseExcel()[pri:0, instance:testcases.LoginTest@10f7f7de]" started-at="2024-10-06T16:48:24Z" name="CloseExcel" finished-at="2024-10-06T16:48:24Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SetUpDriver -->
-        <test-method signature="TC03_LoginSuccessTest(java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@1b45c0e]" started-at="2024-10-06T15:27:53Z" name="TC03_LoginSuccessTest" finished-at="2024-10-06T15:28:02Z" duration-ms="8986" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[aaa@bbb.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Abc@12345]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC03_LoginSuccessTest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.LoginTest@1b45c0e]" started-at="2024-10-06T15:28:02Z" name="TearDown" finished-at="2024-10-06T15:28:03Z" duration-ms="991" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="SetUpDriver()[pri:0, instance:testcases.LoginTest@1b45c0e]" started-at="2024-10-06T15:28:03Z" name="SetUpDriver" finished-at="2024-10-06T15:28:07Z" duration-ms="4512" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUpDriver -->
-        <test-method signature="TC04_LoginSuccessTest(java.lang.String)[pri:0, instance:testcases.LoginTest@1b45c0e]" started-at="2024-10-06T15:28:07Z" name="TC04_LoginSuccessTest" data-provider="dp" finished-at="2024-10-06T15:28:15Z" duration-ms="8070" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ccc@xyz.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC04_LoginSuccessTest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.LoginTest@1b45c0e]" started-at="2024-10-06T15:28:15Z" name="TearDown" finished-at="2024-10-06T15:28:16Z" duration-ms="940" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="SetUpDriver()[pri:0, instance:testcases.LoginTest@1b45c0e]" started-at="2024-10-06T15:28:16Z" name="SetUpDriver" finished-at="2024-10-06T15:28:22Z" duration-ms="6056" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUpDriver -->
-        <test-method signature="TC04_LoginSuccessTest(java.lang.String)[pri:0, instance:testcases.LoginTest@1b45c0e]" started-at="2024-10-06T15:28:22Z" name="TC04_LoginSuccessTest" data-provider="dp" finished-at="2024-10-06T15:28:32Z" duration-ms="10007" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[aaa@xyz.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC04_LoginSuccessTest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.LoginTest@1b45c0e]" started-at="2024-10-06T15:28:33Z" name="TearDown" finished-at="2024-10-06T15:28:34Z" duration-ms="1048" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="SetUpDriver()[pri:0, instance:testcases.LoginTest@1b45c0e]" started-at="2024-10-06T15:28:34Z" name="SetUpDriver" finished-at="2024-10-06T15:28:38Z" duration-ms="4444" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUpDriver -->
-        <test-method signature="TC04_LoginSuccessTest(java.lang.String)[pri:0, instance:testcases.LoginTest@1b45c0e]" started-at="2024-10-06T15:28:38Z" name="TC04_LoginSuccessTest" data-provider="dp" finished-at="2024-10-06T15:28:48Z" duration-ms="9885" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[bbb@xyz.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC04_LoginSuccessTest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.LoginTest@1b45c0e]" started-at="2024-10-06T15:28:48Z" name="TearDown" finished-at="2024-10-06T15:28:49Z" duration-ms="1008" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="SetUpDriver()[pri:0, instance:testcases.LoginTest@1b45c0e]" started-at="2024-10-06T15:28:49Z" name="SetUpDriver" finished-at="2024-10-06T15:28:54Z" duration-ms="4706" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUpDriver -->
-        <test-method signature="TC05_LoginFailureTest()[pri:0, instance:testcases.LoginTest@1b45c0e]" started-at="2024-10-06T15:28:54Z" name="TC05_LoginFailureTest" finished-at="2024-10-06T15:28:54Z" duration-ms="7" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at testcases.LoginTest.TC05_LoginFailureTest(LoginTest.java:73)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC05_LoginFailureTest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.LoginTest@1b45c0e]" started-at="2024-10-06T15:28:54Z" name="TearDown" finished-at="2024-10-06T15:28:55Z" duration-ms="943" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
+        </test-method> <!-- CloseExcel -->
       </class> <!-- testcases.LoginTest -->
     </test> <!-- Test -->
-  </suite> <!-- Suite -->
+  </suite> <!-- sanity -->
 </testng-results>

@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 116.689 s <<< FAILURE! - in TestSuite
-testcases.LoginTest.TC05_LoginFailureTest  Time elapsed: 0.625 s  <<< FAILURE!
-java.lang.NullPointerException
-	at testcases.LoginTest.TC05_LoginFailureTest(LoginTest.java:73)
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 55.607 s - in TestSuite
