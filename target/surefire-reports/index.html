@@ -59,7 +59,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="group-Suite" class="navigator-link ">
-                    <span>0 groups</span>
+                    <span>1 group</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -136,17 +136,17 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.LoginTest" class="method navigator-link" hash-for-method="TC04_LoginSuccessTest(bbb@xyz.com)">TC04_LoginSuccessTest(bbb@xyz.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testcases.LoginTest" class="method navigator-link" hash-for-method="TC04_LoginSuccessTest(aaa@xyz.com)">TC04_LoginSuccessTest(aaa@xyz.com)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testcases.LoginTest" class="method navigator-link" hash-for-method="TC04_LoginSuccessTest(ccc@xyz.com)">TC04_LoginSuccessTest(ccc@xyz.com)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testcases.LoginTest" class="method navigator-link" hash-for-method="TC04_LoginSuccessTest(bbb@xyz.com)">TC04_LoginSuccessTest(bbb@xyz.com)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -191,6 +191,8 @@
                   <a name="TC01_LoginFailureTest">
                   </a> <!-- TC01_LoginFailureTest -->
                   <span class="method-name">TC01_LoginFailureTest</span>
+                  <em>
+(Login failure test)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -198,6 +200,8 @@
                   <a name="TC02_LoginSuccessTest">
                   </a> <!-- TC02_LoginSuccessTest -->
                   <span class="method-name">TC02_LoginSuccessTest</span>
+                  <em>
+(Login success test)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -206,6 +210,14 @@
                   </a> <!-- TC03_LoginSuccessTest(aaa@bbb.com, Abc@12345) -->
                   <span class="method-name">TC03_LoginSuccessTest</span>
                   <span class="parameters">(aaa@bbb.com, Abc@12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC04_LoginSuccessTest(bbb@xyz.com)">
+                  </a> <!-- TC04_LoginSuccessTest(bbb@xyz.com) -->
+                  <span class="method-name">TC04_LoginSuccessTest</span>
+                  <span class="parameters">(bbb@xyz.com)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -222,14 +234,6 @@
                   </a> <!-- TC04_LoginSuccessTest(ccc@xyz.com) -->
                   <span class="method-name">TC04_LoginSuccessTest</span>
                   <span class="parameters">(ccc@xyz.com)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC04_LoginSuccessTest(bbb@xyz.com)">
-                  </a> <!-- TC04_LoginSuccessTest(bbb@xyz.com) -->
-                  <span class="method-name">TC04_LoginSuccessTest</span>
-                  <span class="parameters">(bbb@xyz.com)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -288,6 +292,18 @@
             <span class="header-content">Groups for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC01_LoginFailureTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TC02_LoginSuccessTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-Suite" class="panel">
@@ -306,42 +322,42 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(8);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'TC04_LoginSuccessTest')
+data.setCell(0, 1, 'TC01_LoginFailureTest')
 data.setCell(0, 2, 'testcases.LoginTest')
-data.setCell(0, 3, 9977);
+data.setCell(0, 3, 16142);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'TC04_LoginSuccessTest')
+data.setCell(1, 1, 'TC02_LoginSuccessTest')
 data.setCell(1, 2, 'testcases.LoginTest')
-data.setCell(1, 3, 9953);
+data.setCell(1, 3, 10007);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'TC04_LoginSuccessTest')
 data.setCell(2, 2, 'testcases.LoginTest')
-data.setCell(2, 3, 9348);
+data.setCell(2, 3, 10007);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'TC01_LoginFailureTest')
+data.setCell(3, 1, 'TC04_LoginSuccessTest')
 data.setCell(3, 2, 'testcases.LoginTest')
-data.setCell(3, 3, 8317);
+data.setCell(3, 3, 9885);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'TC02_LoginSuccessTest')
+data.setCell(4, 1, 'TC03_LoginSuccessTest')
 data.setCell(4, 2, 'testcases.LoginTest')
-data.setCell(4, 3, 8136);
+data.setCell(4, 3, 8986);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'TC03_LoginSuccessTest')
+data.setCell(5, 1, 'TC04_LoginSuccessTest')
 data.setCell(5, 2, 'testcases.LoginTest')
-data.setCell(5, 3, 7315);
+data.setCell(5, 3, 8070);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'TC03_SomeName')
-data.setCell(6, 2, 'testcases.HomePageTest')
-data.setCell(6, 3, 2);
+data.setCell(6, 1, 'TC05_LoginFailureTest')
+data.setCell(6, 2, 'testcases.LoginTest')
+data.setCell(6, 3, 7);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'TC05_LoginFailureTest')
-data.setCell(7, 2, 'testcases.LoginTest')
-data.setCell(7, 3, 2);
+data.setCell(7, 1, 'TC03_SomeName')
+data.setCell(7, 2, 'testcases.HomePageTest')
+data.setCell(7, 3, 3);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 53 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -383,111 +399,111 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">SetUpDriver</span>
-                <span class="method-start">1403 ms</span>
+                <span class="method-start">921 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC03_SomeName</span>
-                <span class="method-start">15405 ms</span>
+                <span class="method-start">7960 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">15412 ms</span>
+                <span class="method-start">7969 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">SetUpDriver</span>
-                <span class="method-start">16355 ms</span>
+                <span class="method-start">9196 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC01_LoginFailureTest</span>
-                <span class="method-start">21166 ms</span>
+                <span class="method-start">14038 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">29484 ms</span>
+                <span class="method-start">30181 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">SetUpDriver</span>
-                <span class="method-start">30473 ms</span>
+                <span class="method-start">31239 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC02_LoginSuccessTest</span>
-                <span class="method-start">35306 ms</span>
+                <span class="method-start">36340 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">43443 ms</span>
+                <span class="method-start">46347 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">SetUpDriver</span>
-                <span class="method-start">44206 ms</span>
+                <span class="method-start">47382 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC03_LoginSuccessTest(aaa@bbb.com, Abc@12345)</span>
-                <span class="method-start">49443 ms</span>
+                <span class="method-start">52462 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">56759 ms</span>
+                <span class="method-start">61449 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">SetUpDriver</span>
-                <span class="method-start">57812 ms</span>
+                <span class="method-start">62445 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC04_LoginSuccessTest(ccc@xyz.com)</span>
-                <span class="method-start">62123 ms</span>
+                <span class="method-start">66957 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">72101 ms</span>
+                <span class="method-start">75027 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">SetUpDriver</span>
-                <span class="method-start">72832 ms</span>
+                <span class="method-start">75968 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC04_LoginSuccessTest(aaa@xyz.com)</span>
-                <span class="method-start">84404 ms</span>
+                <span class="method-start">82025 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">93752 ms</span>
+                <span class="method-start">92037 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">SetUpDriver</span>
-                <span class="method-start">94446 ms</span>
+                <span class="method-start">93086 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC04_LoginSuccessTest(bbb@xyz.com)</span>
-                <span class="method-start">99632 ms</span>
+                <span class="method-start">97530 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">109585 ms</span>
+                <span class="method-start">107417 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">SetUpDriver</span>
-                <span class="method-start">110643 ms</span>
+                <span class="method-start">108427 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">TC05_LoginFailureTest</span>
-                <span class="method-start">115264 ms</span>
+                <span class="method-start">113134 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">115440 ms</span>
+                <span class="method-start">113791 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.HomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">CloseExcel</span>
-                <span class="method-start">116146 ms</span>
+                <span class="method-start">114735 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
