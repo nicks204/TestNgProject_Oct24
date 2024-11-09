@@ -2,44 +2,44 @@
 <testng-results ignored="3" total="5" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-06T16:47:30Z" name="sanity" finished-at="2024-10-06T16:48:24Z" duration-ms="53691">
+  <suite started-at="2024-11-09T16:09:18Z" name="sanity" finished-at="2024-11-09T16:09:54Z" duration-ms="36377">
     <groups>
       <group name="sanity">
-        <method signature="LoginTest.TC01_LoginFailureTest()[pri:0, instance:testcases.LoginTest@10f7f7de]" name="TC01_LoginFailureTest" class="testcases.LoginTest"/>
-        <method signature="LoginTest.TC02_LoginSuccessTest()[pri:0, instance:testcases.LoginTest@10f7f7de]" name="TC02_LoginSuccessTest" class="testcases.LoginTest"/>
+        <method signature="LoginTest.TC01_LoginFailureTest()[pri:0, instance:testcases.LoginTest@5e3d57c7]" name="TC01_LoginFailureTest" class="testcases.LoginTest"/>
+        <method signature="LoginTest.TC02_LoginSuccessTest()[pri:0, instance:testcases.LoginTest@5e3d57c7]" name="TC02_LoginSuccessTest" class="testcases.LoginTest"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2024-10-06T16:47:30Z" name="Test" finished-at="2024-10-06T16:48:24Z" duration-ms="53691">
+    <test started-at="2024-11-09T16:09:18Z" name="Test" finished-at="2024-11-09T16:09:54Z" duration-ms="36377">
       <class name="testcases.LoginTest">
-        <test-method is-config="true" signature="SetUpExcel()[pri:0, instance:testcases.LoginTest@10f7f7de]" started-at="2024-10-06T16:47:30Z" name="SetUpExcel" finished-at="2024-10-06T16:47:31Z" duration-ms="917" status="PASS">
+        <test-method is-config="true" signature="SetUpExcel()[pri:0, instance:testcases.LoginTest@5e3d57c7]" started-at="2024-11-09T16:09:18Z" name="SetUpExcel" finished-at="2024-11-09T16:09:19Z" duration-ms="1006" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpExcel -->
-        <test-method is-config="true" signature="SetUpDriver()[pri:0, instance:testcases.LoginTest@10f7f7de]" started-at="2024-10-06T16:47:31Z" name="SetUpDriver" finished-at="2024-10-06T16:47:46Z" duration-ms="15138" status="PASS">
+        <test-method is-config="true" signature="SetUpDriver()[pri:0, instance:testcases.LoginTest@5e3d57c7]" started-at="2024-11-09T16:09:19Z" name="SetUpDriver" finished-at="2024-11-09T16:09:35Z" duration-ms="15801" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpDriver -->
-        <test-method signature="TC01_LoginFailureTest()[pri:0, instance:testcases.LoginTest@10f7f7de]" started-at="2024-10-06T16:47:46Z" name="TC01_LoginFailureTest" description="Login failure test" finished-at="2024-10-06T16:48:00Z" duration-ms="13990" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC01_LoginFailureTest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.LoginTest@10f7f7de]" started-at="2024-10-06T16:48:00Z" name="TearDown" finished-at="2024-10-06T16:48:02Z" duration-ms="1690" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="SetUpDriver()[pri:0, instance:testcases.LoginTest@10f7f7de]" started-at="2024-10-06T16:48:02Z" name="SetUpDriver" finished-at="2024-10-06T16:48:10Z" duration-ms="8504" status="PASS">
+        <test-method is-config="true" signature="SetUpDriver()[pri:0, instance:testcases.LoginTest@5e3d57c7]" started-at="2024-11-09T16:09:19Z" name="SetUpDriver" finished-at="2024-11-09T16:09:32Z" duration-ms="13320" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpDriver -->
-        <test-method signature="TC02_LoginSuccessTest()[pri:0, instance:testcases.LoginTest@10f7f7de]" started-at="2024-10-06T16:48:10Z" name="TC02_LoginSuccessTest" description="Login success test" finished-at="2024-10-06T16:48:22Z" duration-ms="11974" status="PASS">
+        <test-method signature="TC02_LoginSuccessTest()[pri:0, instance:testcases.LoginTest@5e3d57c7]" started-at="2024-11-09T16:09:32Z" name="TC02_LoginSuccessTest" description="Login success test" finished-at="2024-11-09T16:09:50Z" duration-ms="17676" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC02_LoginSuccessTest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.LoginTest@10f7f7de]" started-at="2024-10-06T16:48:22Z" name="TearDown" finished-at="2024-10-06T16:48:24Z" duration-ms="1456" status="PASS">
+        <test-method signature="TC01_LoginFailureTest()[pri:0, instance:testcases.LoginTest@5e3d57c7]" started-at="2024-11-09T16:09:35Z" name="TC01_LoginFailureTest" description="Login failure test" finished-at="2024-11-09T16:09:48Z" duration-ms="12948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_LoginFailureTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.LoginTest@5e3d57c7]" started-at="2024-11-09T16:09:48Z" name="TearDown" finished-at="2024-11-09T16:09:51Z" duration-ms="2718" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="CloseExcel()[pri:0, instance:testcases.LoginTest@10f7f7de]" started-at="2024-10-06T16:48:24Z" name="CloseExcel" finished-at="2024-10-06T16:48:24Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.LoginTest@5e3d57c7]" started-at="2024-11-09T16:09:50Z" name="TearDown" finished-at="2024-11-09T16:09:54Z" duration-ms="4343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="CloseExcel()[pri:0, instance:testcases.LoginTest@5e3d57c7]" started-at="2024-11-09T16:09:54Z" name="CloseExcel" finished-at="2024-11-09T16:09:54Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseExcel -->

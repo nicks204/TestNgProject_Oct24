@@ -1,5 +1,6 @@
 testcases\BaseClass.class
 testcases\LoginTest.class
+grid\SeleniumGridExample.class
 com\simplilearn\TestNG_Project\AppTest.class
 pages\LoginPage.class
 testcases\HomePageTest.class

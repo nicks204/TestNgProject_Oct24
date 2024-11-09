@@ -69,7 +69,7 @@ public class BaseClass {
 			
 		}
 		else {
-			driver = new ChromeDriver();
+			driver = new ChromeDriver(options);
 		}
 		
 		SetDriver(driver);
